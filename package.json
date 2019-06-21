@@ -1,0 +1,46 @@
+{
+  "name": "scrolling-form",
+  "version": "1.0.0",
+  "description": "flexbox in a react app",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "license": "16.8.6",
+  "dependencies": {
+    "@types/react-select": "2.0.19",
+    "@types/react-tabs": "^2.3.1",
+    "@types/react-textarea-autosize": "latest",
+    "animate.css": "^3.7.2",
+    "colors.css": "3.0.0",
+    "gridlex": "^2.7.1",
+    "prop-types": "^15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-markdown": "4.0.8",
+    "react-scripts": "3.0.1",
+    "react-select": "3.0.3",
+    "react-stickynode": "2.1.1",
+    "react-switch": "5.0.0",
+    "react-tabs": "3.0.0",
+    "react-textarea-autosize": "latest",
+    "tachyons": "4.11.1",
+    "typescript": "^3.5.2",
+    "unstated": "2.1.1",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

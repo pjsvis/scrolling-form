@@ -1,0 +1,90 @@
+/* flexbox layout with sticky footer */
+html,
+body {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+/* end flexbox layout */
+
+/* rbs tachyons theme  */
+.rbs-blue {
+  color: #0a2f64;
+}
+.bg-rbs-blue {
+  background-color: #0a2f64;
+}
+.b--rbs-blue {
+  border-color: #0a2f64;
+}
+
+.hover-rbs-blue:hover,
+.hover-rbs-blue:focus {
+  color: #0a2f64;
+}
+
+.hover-bg-rbs-blue:hover,
+.hover-bg-rbs-blue:focus {
+  background-color: #0a2f64;
+}
+/* end rbs tachyons theme */
+
+/* Additional styles for fitting divs to content */
+.fit-h {
+  height: fit-content;
+}
+
+.fit-w {
+  width: fit-content;
+}
+
+.fit {
+  height: fit-content;
+  width: fit-content;
+}
+
+/* sticky postioning for progress menu */
+.sticky {
+  position: sticky;
+}
+
+/* Add btn-xs for Bootstrap 4 Ref: https://github.com/twbs/bootstrap/issues/21881 */
+.btn-group-xs > .btn,
+.btn-xs {
+  padding: 0.25rem 0.4rem;
+  font-size: 0.875rem;
+  line-height: 0.5;
+  border-radius: 0.2rem;
+}
+/* END btn-xs */
